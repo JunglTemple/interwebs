@@ -15,8 +15,20 @@ const PointsMenuOpen = ref(false);
 			<div class="p-4 flex-1">
 				<span class="text-2xl m-2 mt-8 text-primary block">Points</span>
 				<div class="grid grid-cols-3 gap-4 m-2">
-					<UButton size="xl" variant="soft" to="/">Home</UButton>
-					<UButton size="xl" variant="soft" to="/teamsmp">Team SMP</UButton>
+					<UButton
+						size="xl"
+						variant="soft"
+						to="/"
+						@click="PointsMenuOpen = false"
+						>Home</UButton
+					>
+					<UButton
+						size="xl"
+						variant="soft"
+						to="/teamsmp"
+						@click="PointsMenuOpen = false"
+						>Team SMP</UButton
+					>
 				</div>
 			</div>
 		</USlideover>
