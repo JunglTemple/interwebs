@@ -12,3 +12,11 @@
 		</p>
 	</div>
 </template>
+
+<script setup lang="ts">
+useHead({
+	titleTemplate: (titleChunk) => {
+		return titleChunk ? `${titleChunk} - Team SMP` : "Team SMP";
+	},
+});
+</script>

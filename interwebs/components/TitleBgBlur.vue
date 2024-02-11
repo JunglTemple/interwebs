@@ -2,7 +2,7 @@
 	<div
 		id="title-block"
 		class="p-5 mb-3 rounded-3xl bg-center bg-cover"
-		:class="'bg-[url(\'' + bgimg + '\')]'"
+		:style="{ backgroundImage: `url(${bgimg})` }"
 	>
 		<span class="text-cool m-1 block text-xl">{{ pagetype }}</span>
 		<h1
