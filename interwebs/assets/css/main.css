@@ -1,19 +1,6 @@
+@import url("https://fonts.googleapis.com/css?family=Inter&family=Space+Grotesk&family=Space+Mono&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
-	font-family: "SpaceMono";
-	font-style: normal;
-	font-weight: 400;
-	src: url(https://fonts.gstatic.com/s/spacemono/v13/i7dPIFZifjKcF5UAWdDRYE58RWq7.woff2)
-		format("woff2");
-}
-
-@font-face {
-	font-family: "SpaceGrotesk";
-	font-style: normal;
-	font-weight: 400;
-	src: url(https://fonts.gstatic.com/s/spacegrotesk/v16/V8mQoQDjQSkFtoMM3T6r8E7mF71Q-gOoraIAEj7oUXsrPMBTTA.woff2)
-		format("woff2");
-}
