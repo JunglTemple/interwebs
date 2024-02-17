@@ -14,7 +14,7 @@ const PointsMenuOpen = ref(false);
 		<USlideover v-model="PointsMenuOpen" side="left">
 			<div class="p-4 flex-1">
 				<span class="text-2xl m-2 mt-8 text-primary block">Points</span>
-				<div class="grid grid-cols-3 gap-4 m-2">
+				<div class="grid grid-cols-3 gap-3 m-2">
 					<UButton
 						size="xl"
 						variant="soft"
@@ -28,6 +28,13 @@ const PointsMenuOpen = ref(false);
 						to="/teamsmp"
 						@click="PointsMenuOpen = false"
 						>Team SMP</UButton
+					>
+					<UButton
+						size="xl"
+						variant="soft"
+						to="/onetime"
+						@click="PointsMenuOpen = false"
+						>OneTime</UButton
 					>
 				</div>
 			</div>
