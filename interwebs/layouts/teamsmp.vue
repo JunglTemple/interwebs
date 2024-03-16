@@ -1,7 +1,7 @@
 <template>
 	<div>
 		<div class="mt-5 mx-8">
-			<PointList></PointList>
+			<TSMPPointList></TSMPPointList>
 		</div>
 		<slot></slot>
 	</div>

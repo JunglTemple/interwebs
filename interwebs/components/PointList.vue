@@ -15,6 +15,7 @@ const PointsMenuOpen = ref(false);
 			<div class="p-4 flex-1">
 				<span class="text-2xl m-2 mt-8 text-primary block">Points</span>
 				<div class="grid grid-cols-3 gap-3 m-2">
+					<!-- Home Button -->
 					<UButton
 						size="xl"
 						variant="soft"
@@ -22,6 +23,7 @@ const PointsMenuOpen = ref(false);
 						@click="PointsMenuOpen = false"
 						>Home</UButton
 					>
+					<!-- Team SMP page -->
 					<UButton
 						size="xl"
 						variant="soft"
@@ -29,6 +31,7 @@ const PointsMenuOpen = ref(false);
 						@click="PointsMenuOpen = false"
 						>Team SMP</UButton
 					>
+					<!--
 					<UButton
 						size="xl"
 						variant="soft"
@@ -36,6 +39,7 @@ const PointsMenuOpen = ref(false);
 						@click="PointsMenuOpen = false"
 						>OneTime</UButton
 					>
+					-->
 				</div>
 			</div>
 		</USlideover>
