@@ -16,7 +16,4 @@ useHead({
 		return titleChunk ? `${titleChunk} - OneTime` : "OneTime";
 	},
 });
-definePageMeta({
-	layout: "onetime-links",
-});
 </script>
